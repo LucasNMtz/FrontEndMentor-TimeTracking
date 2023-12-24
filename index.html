@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" type="text/css" href="normalize_v8.0.1.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="principal-section">
+      <div class="user-info-container">
+        <img src="images/image-jeremy.png" alt="Photo" class="user-photo">
+        <div class="user-info-container__text-container">
+
+          <span>Report for</span>
+          <span class="user-name">Jeremy Robson</span>
+        </div>
+      </div>
+
+      <div class="option-buttons-container">
+
+        <button class="option-button" id="daily-button" style="color: #fff;">Daily</button>
+        <button class="option-button" id="weekly-button">Weekly</button>
+        <button class="option-button" id="monthly-button">Monthly</button>
+      </div>
+    </section>
+    <section class="timetrack-section work-section">
+      <div class="section__text-container">
+        <div class="section-text-container__top-div">
+          <h2>Work</h2>
+          <button class="ellipsis-button"></button>
+
+        </div>
+
+        <div class="section-text-container__bottom-div">
+          <span class="currenttime-span">5hrs</span>
+          <span class="previoustime-span">Last Day - 7hrs</span>
+        </div>
+        
+      </div>
+    </section>
+    <section class="timetrack-section play-section">
+      <div class="section__text-container">
+        <div class="section-text-container__top-div">
+          <h2>Play</h2>
+          <button class="ellipsis-button"></button>
+
+        </div>
+
+        <div class="section-text-container__bottom-div">
+          <span class="currenttime-span">1hrs</span>
+          <span class="previoustime-span">Last Day - 2hrs</span>
+        </div>
+
+      </div>
+    </section>
+    <section class="timetrack-section study-section">
+      <div class="section__text-container">
+        <div class="section-text-container__top-div">
+          <h2>Study</h2>
+          <button class="ellipsis-button"></button>
+
+        </div>
+
+        <div class="section-text-container__bottom-div">
+          <span class="currenttime-span">0hrs</span>
+          <span class="previoustime-span">Last Day - 1hrs</span>
+        </div>
+
+      </div>
+    </section>
+    <section class="timetrack-section exercise-section">
+      <div class="section__text-container">
+        <div class="section-text-container__top-div">
+          <h2>Exercise</h2>
+          <button class="ellipsis-button"></button>
+
+        </div>
+
+        <div class="section-text-container__bottom-div">
+          <span class="currenttime-span">1hrs</span>
+          <span class="previoustime-span">Last Day - 1hrs</span>
+        </div>
+
+      </div>
+    </section>
+    <section class="timetrack-section social-section">
+      <div class="section__text-container">
+        <div class="section-text-container__top-div">
+          <h2>Social</h2>
+          <button class="ellipsis-button"></button>
+
+        </div>
+
+        <div class="section-text-container__bottom-div">
+          <span class="currenttime-span">1hrs</span>
+          <span class="previoustime-span">Last Day - 3hrs</span>
+        </div>
+
+      </div>
+    </section>
+    <section class="timetrack-section selfcare-section">
+      <div class="section__text-container">
+        <div class="section-text-container__top-div">
+          <h2>Self Care</h2>
+          <button class="ellipsis-button"></button>
+
+        </div>
+
+        <div class="section-text-container__bottom-div">
+          <span class="currenttime-span">0hrs</span>
+          <span class="previoustime-span">Last Day - 1hrs</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Lucas</a>.
+    </p>
+  </footer>
+  <script src="code.js"></script>
+</body>
+</html>
